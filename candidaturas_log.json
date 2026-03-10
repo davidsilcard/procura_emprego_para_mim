@@ -1,0 +1,48 @@
+{
+  "updated_on": "2026-03-09",
+  "description": "Registro canonico de candidaturas e decisoes para evitar duplicidade e reaproveitar contexto em futuras buscas.",
+  "entries": [
+    {
+      "applied_on": "2026-03-09",
+      "platform": "Gupy",
+      "company": "GRAN",
+      "job_title": "Analista de Governanca de IA Pleno | (CLT) - Remoto",
+      "job_url": "https://vemsergran.gupy.io/jobs/10796427",
+      "application_url": "https://vemsergran.gupy.io/candidates/applications/691096059/steps/3821755996/curriculum",
+      "status": "candidatado",
+      "work_model": "remoto",
+      "location": "Brasil",
+      "decision": "candidatura realizada",
+      "fit_summary": "Boa aderencia por foco em IA, governanca, LGPD, dados, automacao e trabalho remoto.",
+      "notes": "Candidatura enviada com personalizacao usando Python, Mapeamento de Processos e Automacao de Processos."
+    },
+    {
+      "applied_on": "2026-03-09",
+      "platform": "Gupy",
+      "company": "Telium Networks",
+      "job_title": "Analista de Sistema Pleno (Python) - Remoto",
+      "job_url": "https://telium.gupy.io/jobs/10722289?jobBoardSource=gupy_public_page",
+      "application_url": "https://telium.gupy.io/candidates/applications/691113628/steps/3821868936/curriculum/reproved",
+      "status": "eliminado_por_pergunta",
+      "work_model": "remoto",
+      "location": "Brasil",
+      "decision": "candidatura interrompida por filtro eliminatorio",
+      "fit_summary": "Boa aderencia tecnica geral, mas a empresa eliminou a candidatura pela resposta sobre tempo de experiencia com Python.",
+      "notes": "Pergunta eliminatoria: tempo de experiencia com Python. Resposta enviada: 0 a 2 anos. Nao tentar novamente esta vaga."
+    },
+    {
+      "applied_on": "2026-03-09",
+      "platform": "Gupy",
+      "company": "Dedalus",
+      "job_title": "Analista de Operacoes Cloud Junior | Quarta a Domingo - 12h as 21h",
+      "job_url": "https://dedalus.gupy.io/job/eyJqb2JJZCI6MTA5NTY5MTQsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+      "application_url": "https://dedalus.gupy.io/candidates/applications/691129445/steps/3821970712/curriculum",
+      "status": "candidatado",
+      "work_model": "remoto",
+      "location": "Brasil",
+      "decision": "candidatura realizada",
+      "fit_summary": "Aderencia plausivel por estudos em Azure cloud-native, automacao, processos, documentacao e capacidade de suporte tecnico.",
+      "notes": "Perguntas extras respondidas com disponibilidade para a escala informada e pretensao salarial de R$ 3.500,00. Fluxo concluido com sucesso."
+    }
+  ]
+}

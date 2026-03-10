@@ -1,0 +1,40 @@
+{
+  "updated_on": "2026-03-09",
+  "location": {
+    "current_city": "Jaragua do Sul - SC",
+    "allow_city_change": false,
+    "allow_travel": true
+  },
+  "work_model_priority": [
+    "remoto",
+    "hibrido",
+    "presencial"
+  ],
+  "compensation": {
+    "default_salary_expectation_brl": 3500,
+    "default_salary_expectation_display": "R$ 3.500,00",
+    "ideal_salary_policy": "pesquisar piso salarial na web quando fizer sentido",
+    "minimum_salary_policy": "pesquisar piso salarial na web quando fizer sentido"
+  },
+  "availability": {
+    "start_policy": "depende de desligamento do emprego atual",
+    "estimated_notice_days_min": 15,
+    "estimated_notice_days_max": 30
+  },
+  "default_application_answers": {
+    "has_referral": "Nao",
+    "already_worked_at_target_company": "Nao",
+    "job_source": "LinkedIn"
+  },
+  "application_strategy": {
+    "primary_focus": [
+      "Python",
+      "automacao",
+      "backend",
+      "dados"
+    ],
+    "allow_imperfect_formal_fit": true,
+    "transparency_on_gaps": true,
+    "do_not_apply_if_requires_relocation": true
+  }
+}

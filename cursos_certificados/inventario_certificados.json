@@ -1,0 +1,442 @@
+{
+  "updated_on": "2026-03-09",
+  "source_folder": "cursos_certificados",
+  "default_provider": "DIO",
+  "pdf_files_read": 43,
+  "unique_certificates": 41,
+  "title_normalization_note": "Titulos normalizados apenas para limpar ruido evidente de OCR; conteudo mantido fiel aos certificados.",
+  "duplicates": [
+    {
+      "title": "Desenvolvimento e Hospedagem de Aplicacoes Web com o Azure ML",
+      "source_pdfs": [
+        "3B5LESFQ.pdf",
+        "KSFDJOCT.pdf"
+      ]
+    },
+    {
+      "title": "Gerenciamento e Seguranca de APIs na Azure",
+      "source_pdfs": [
+        "IB6RNE0Q.pdf",
+        "SUXI0M2A.pdf"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "title": "Microsoft Azure Cloud Native 2026",
+      "kind": "bootcamp",
+      "area": "bootcamps",
+      "completed_on": "2026-02-05",
+      "workload_hours": 23,
+      "sponsor": "Microsoft",
+      "source_pdfs": [
+        "NY6PNSRW.pdf"
+      ]
+    },
+    {
+      "title": "Jornada Para o Futuro - Node.js",
+      "kind": "bootcamp",
+      "area": "bootcamps",
+      "completed_on": "2026-02-23",
+      "workload_hours": 40,
+      "source_pdfs": [
+        "IMEJN8XP.pdf"
+      ]
+    },
+    {
+      "title": "Bem vindo a Experiencia do seu Bootcamp Jornada para o Futuro",
+      "kind": "course",
+      "area": "bootcamps",
+      "completed_on": "2026-02-10",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "D6CPUCQE.pdf"
+      ]
+    },
+    {
+      "title": "Introducao a Experiencia Microsoft Azure Cloud Native 2026",
+      "kind": "course",
+      "area": "bootcamps",
+      "completed_on": "2026-02-03",
+      "workload_hours": 1,
+      "sponsor": "Microsoft",
+      "source_pdfs": [
+        "OVRK5O5T.pdf"
+      ]
+    },
+    {
+      "title": "Introducao ao Bootcamp TOTVS - Fundamentos de Engenharia de Dados e Machine Learning",
+      "kind": "course",
+      "area": "dados_analytics",
+      "completed_on": "2026-02-26",
+      "workload_hours": 1,
+      "sponsor": "TOTVS",
+      "source_pdfs": [
+        "YPFKUNNH.pdf"
+      ]
+    },
+    {
+      "title": "Introducao a Aceleracao Microsoft - Gestao de Dados & IA",
+      "kind": "course",
+      "area": "dados_analytics",
+      "completed_on": "2026-02-23",
+      "workload_hours": 1,
+      "sponsor": "Microsoft",
+      "source_pdfs": [
+        "KYML4L79.pdf"
+      ]
+    },
+    {
+      "title": "Introducao a Ciencia de Dados e Python",
+      "kind": "module",
+      "area": "dados_analytics",
+      "completed_on": "2026-02-26",
+      "workload_hours": 13,
+      "source_pdfs": [
+        "EZWLWXQA.pdf"
+      ]
+    },
+    {
+      "title": "Introducao a Banco de Dados NoSQL",
+      "kind": "course",
+      "area": "dados_analytics",
+      "completed_on": "2026-02-27",
+      "workload_hours": 3,
+      "source_pdfs": [
+        "I5KFLTLJ.pdf"
+      ]
+    },
+    {
+      "title": "Criando um Processo de ETL com Excel e Power Query",
+      "kind": "course",
+      "area": "dados_analytics",
+      "completed_on": "2026-03-02",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "FE9TQ6RX.pdf"
+      ]
+    },
+    {
+      "title": "Introducao a Dashboards",
+      "kind": "course",
+      "area": "dados_analytics",
+      "completed_on": "2026-03-02",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "OT1PJDZV.pdf"
+      ]
+    },
+    {
+      "title": "Analisando Bases de Dados com Excel e Copilot",
+      "kind": "course",
+      "area": "dados_analytics",
+      "completed_on": "2026-03-02",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "RXDL55C5.pdf"
+      ]
+    },
+    {
+      "title": "Utilizando Microsoft Copilot para escrever consultas SQL",
+      "kind": "course",
+      "area": "dados_analytics",
+      "completed_on": "2026-03-02",
+      "workload_hours": 2,
+      "source_pdfs": [
+        "SXCZ6C0X.pdf"
+      ]
+    },
+    {
+      "title": "Trabalhando com Microsoft Copilot",
+      "kind": "course",
+      "area": "dados_analytics",
+      "completed_on": "2026-02-27",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "VMUWETHU.pdf"
+      ]
+    },
+    {
+      "title": "Introducao a IA e a Servicos de IA do Azure",
+      "kind": "course",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-23",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "3QEURL8O.pdf"
+      ]
+    },
+    {
+      "title": "Introducao aos Servicos de IA do Azure",
+      "kind": "course",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-23",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "IW5LDB9S.pdf"
+      ]
+    },
+    {
+      "title": "Introducao a IA no Microsoft Azure",
+      "kind": "module",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-23",
+      "workload_hours": 3,
+      "source_pdfs": [
+        "QPPORPA3.pdf"
+      ]
+    },
+    {
+      "title": "Usar os Servicos de IA do Azure para Aplicativos Empresariais",
+      "kind": "course",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-23",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "PHQWL3JK.pdf"
+      ]
+    },
+    {
+      "title": "Servicos de Analise e Traducao de Texto na Azure",
+      "kind": "course",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-24",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "LPOBIFJL.pdf"
+      ]
+    },
+    {
+      "title": "Criando Processamento de Linguagem Natural na Azure",
+      "kind": "course",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-25",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "LYGLXBMD.pdf"
+      ]
+    },
+    {
+      "title": "Entendendo como Funciona Analise e Manipular Imagens na Azure",
+      "kind": "course",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-23",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "MHI6UBR9.pdf"
+      ]
+    },
+    {
+      "title": "Modelos de Visao Personalizada com a Visao de IA do Azure",
+      "kind": "course",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-24",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "NULXFUKF.pdf"
+      ]
+    },
+    {
+      "title": "Criando Modelos de Classificacao Personalizados na Azure",
+      "kind": "course",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-26",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "OSE3CDBN.pdf"
+      ]
+    },
+    {
+      "title": "Inteligencia Artificial no Desenvolvimento na Azure",
+      "kind": "module",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-05",
+      "workload_hours": 2,
+      "source_pdfs": [
+        "T4NL7VEE.pdf"
+      ]
+    },
+    {
+      "title": "Gerenciamento de APIs com Azure API Management",
+      "kind": "course",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-04",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "9AJPYPBZ.pdf"
+      ]
+    },
+    {
+      "title": "Gerenciamento e Seguranca de APIs na Azure",
+      "kind": "module",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-04",
+      "workload_hours": 3,
+      "source_pdfs": [
+        "IB6RNE0Q.pdf",
+        "SUXI0M2A.pdf"
+      ]
+    },
+    {
+      "title": "API de Pagamentos Segura com Azure API Management",
+      "kind": "project",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-04",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "QZP7OJE6.pdf"
+      ]
+    },
+    {
+      "title": "Computacao Serverless com Azure Functions",
+      "kind": "course",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-05",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "GU6IV2LT.pdf"
+      ]
+    },
+    {
+      "title": "Aplicacoes Conteinerizadas com Azure Container Apps",
+      "kind": "course",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-04",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "THGGH4YO.pdf"
+      ]
+    },
+    {
+      "title": "Criando um Blog com Container Apps",
+      "kind": "project",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-04",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "UDQQELU5.pdf"
+      ]
+    },
+    {
+      "title": "Conteineres e Orquestracao na Azure",
+      "kind": "module",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-04",
+      "workload_hours": 5,
+      "source_pdfs": [
+        "UHDCXKZ9.pdf"
+      ]
+    },
+    {
+      "title": "Desenvolvimento e Hospedagem de Aplicacoes Web com o Azure ML",
+      "kind": "module",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-04",
+      "workload_hours": 3,
+      "source_pdfs": [
+        "3B5LESFQ.pdf",
+        "KSFDJOCT.pdf"
+      ]
+    },
+    {
+      "title": "Construcao de uma Aplicacao de Aluguel de Carros totalmente Cloud-Native",
+      "kind": "project",
+      "area": "azure_ia_cloud",
+      "completed_on": "2026-02-05",
+      "workload_hours": 2,
+      "source_pdfs": [
+        "OYQI5LFK.pdf"
+      ]
+    },
+    {
+      "title": "Introducao a TypeScript e Supersets",
+      "kind": "course",
+      "area": "nodejs_typescript",
+      "completed_on": "2026-02-17",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "9Z33KXU3.pdf"
+      ]
+    },
+    {
+      "title": "Como configurar TypeScript em Projetos Node.js",
+      "kind": "course",
+      "area": "nodejs_typescript",
+      "completed_on": "2026-02-17",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "AQF8EBEP.pdf"
+      ]
+    },
+    {
+      "title": "TypeScript para Devs Node.js",
+      "kind": "module",
+      "area": "nodejs_typescript",
+      "completed_on": "2026-02-17",
+      "workload_hours": 4,
+      "source_pdfs": [
+        "Y7NLD0JK.pdf"
+      ]
+    },
+    {
+      "title": "Debugging com Node.js",
+      "kind": "course",
+      "area": "nodejs_typescript",
+      "completed_on": "2026-02-17",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "VBHS0RLZ.pdf"
+      ]
+    },
+    {
+      "title": "Introducao ao desenvolvimento de API",
+      "kind": "course",
+      "area": "nodejs_typescript",
+      "completed_on": "2026-02-18",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "PBKHUVF8.pdf"
+      ]
+    },
+    {
+      "title": "Gerenciador de Podcasts - API com Node.js, TypeScript e HTTP Module",
+      "kind": "project",
+      "area": "nodejs_typescript",
+      "completed_on": "2026-02-18",
+      "workload_hours": 2,
+      "source_pdfs": [
+        "ASQY2ZD2.pdf"
+      ]
+    },
+    {
+      "title": "Criando uma Minimal API da Formula 1 com Node.js e Fastify",
+      "kind": "project",
+      "area": "nodejs_typescript",
+      "completed_on": "2026-02-20",
+      "workload_hours": 1,
+      "source_pdfs": [
+        "MWFA7RW2.pdf"
+      ]
+    },
+    {
+      "title": "Criando APIs com Node.js",
+      "kind": "module",
+      "area": "nodejs_typescript",
+      "completed_on": "2026-02-23",
+      "workload_hours": 9,
+      "source_pdfs": [
+        "HVI6O3D6.pdf"
+      ]
+    },
+    {
+      "title": "Recriando a API da Champions League com Node.js e Express",
+      "kind": "project",
+      "area": "nodejs_typescript",
+      "completed_on": "2026-02-23",
+      "workload_hours": 5,
+      "source_pdfs": [
+        "Y3CMAHXK.pdf"
+      ]
+    }
+  ]
+}

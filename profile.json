@@ -1,0 +1,69 @@
+{
+  "updated_on": "2026-03-09",
+  "person": {
+    "full_name": "David Silva Cardoso",
+    "current_city": "Jaragua do Sul - SC",
+    "phone": "(11) 97698-6161",
+    "email": "davidsilcard@gmail.com"
+  },
+  "career": {
+    "base_objective": [
+      "Analista de Desenvolvimento (IA/LLMs)",
+      "Automacao de Processos",
+      "Dados e Inovacao"
+    ],
+    "short_summary": "Profissional na interface entre Negocios e Tecnologia, com foco em automacao de processos, backend e produtos de dados. Atua com pesquisa, testes e validacao de LLMs e ferramentas de IA, alem do desenvolvimento de solucoes internas para aumentar produtividade, rastreabilidade e confiabilidade de dados.",
+    "github_headline": "Automacao de Processos | Analista de Desenvolvimento | Backend Python/TypeScript"
+  },
+  "education": [
+    {
+      "degree": "MBA em Gestao de Projetos",
+      "year": 2014
+    },
+    {
+      "degree": "Bacharelado em Administracao",
+      "year": 2012
+    }
+  ],
+  "languages": [
+    {
+      "language": "ingles",
+      "level": "intermediario (leitura)"
+    }
+  ],
+  "licenses": {
+    "has_cnh": true,
+    "categories": [
+      "A",
+      "B"
+    ]
+  },
+  "core_tools_confirmed": [
+    "Excel (VBA)",
+    "Access",
+    "Python",
+    "UiPath"
+  ],
+  "experience_facts": {
+    "python_professional_experience": {
+      "summary": "Experiencia profissional com Python superior a 5 anos",
+      "minimum_years_confirmed": 5,
+      "notes": [
+        "Uso de Python na Portal de Documentos em automacoes de processos, integracoes e tratamento de dados",
+        "Nao tratar como experiencia recente apenas da Zanotti"
+      ]
+    }
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/david-silva-cardoso-70925823/",
+    "github_repositories": "https://github.com/davidsilcard?tab=repositories",
+    "github_profile": "https://github.com/davidsilcard",
+    "github_readme": "https://github.com/davidsilcard/davidsilcard"
+  },
+  "canonical_sources": [
+    "Curriculo-David-Silva-Cardoso-1pagina-FINAL.docx",
+    "Curriculo-David-Silva-Cardoso-Completo-FINAL.docx",
+    "github_inventario.json",
+    "cursos_certificados/inventario_certificados.json"
+  ]
+}

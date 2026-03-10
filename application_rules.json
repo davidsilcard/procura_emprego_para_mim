@@ -1,0 +1,60 @@
+{
+  "updated_on": "2026-03-09",
+  "global_rules": [
+    "Consultar primeiro fontes canonicas estruturadas antes de responder sobre o perfil do usuario",
+    "Nao inventar experiencia, certificacao, disponibilidade ou preferencia",
+    "Distinguir claramente fatos confirmados de inferencias"
+  ],
+  "canonical_sources_priority": [
+    "profile.json",
+    "job_preferences.json",
+    "candidaturas_log.json",
+    "gupy_selectors.json",
+    "github_inventario.json",
+    "cursos_certificados/inventario_certificados.json",
+    "Curriculo-David-Silva-Cardoso-1pagina-FINAL.docx",
+    "Curriculo-David-Silva-Cardoso-Completo-FINAL.docx",
+    "info_complementar.txt"
+  ],
+  "gupy": {
+    "preferred_flow": [
+      "ler requisitos da vaga",
+      "avaliar aderencia real",
+      "consultar candidaturas_log.json",
+      "abrir candidatura",
+      "preencher perguntas objetivas com base local",
+      "abrir Personalizar candidatura quando existir",
+      "adaptar apresentacao aos requisitos da vaga",
+      "finalizar candidatura",
+      "registrar resultado no log"
+    ],
+    "avoid_back_navigation": true,
+    "use_personalize_before_finish": true,
+    "validate_elimination_questions_first": true,
+    "sensitive_questions_to_validate_first": [
+      "tempo de experiencia",
+      "escolaridade",
+      "disponibilidade",
+      "escala",
+      "pretensao salarial"
+    ],
+    "default_answers": {
+      "salary_expectation_display": "R$ 3.500,00",
+      "python_experience_reference": "superior a 5 anos",
+      "job_source": "LinkedIn",
+      "has_referral": "Nao",
+      "already_worked_at_target_company": "Nao"
+    },
+    "skill_selection_rule": "Priorizar ate 3 habilidades diretamente ligadas aos requisitos centrais da vaga e confirmadas no historico do usuario",
+    "selector_map_file": "gupy_selectors.json"
+  },
+  "application_decision_policy": {
+    "check_hard_constraints_first": true,
+    "hard_constraints": [
+      "nao exigir mudanca de cidade quando allow_city_change for false"
+    ],
+    "allow_practical_fit_when_formal_requirements_are_imperfect": true,
+    "must_disclose_real_gaps_if_company_asks": true,
+    "must_skip_duplicate_applications": true
+  }
+}

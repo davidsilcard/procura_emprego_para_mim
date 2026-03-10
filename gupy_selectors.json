@@ -1,0 +1,103 @@
+{
+  "updated_on": "2026-03-09",
+  "description": "Mapa local de seletores recorrentes da Gupy para acelerar automacao e reduzir reinspecoes do DOM.",
+  "strategy": {
+    "priority_order": [
+      "id",
+      "data_attributes",
+      "aria_label_or_role",
+      "normalized_text",
+      "contextual_heuristic"
+    ],
+    "notes": [
+      "Preferir seletores estaveis e semanticos antes de texto visivel.",
+      "Evitar depender de classes dinamicas, posicao na pagina ou estrutura visual fragil.",
+      "Quando o texto da interface vier quebrado, comparar tambem a versao normalizada sem espacos duplicados."
+    ]
+  },
+  "selectors": {
+    "continue_application": {
+      "purpose": "Prosseguir na tela de retomada da candidatura",
+      "stable_selectors": [
+        {
+          "type": "text",
+          "value": "Continuar"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "button_text_normalized",
+          "value": "continuar"
+        },
+        {
+          "type": "dom_event",
+          "value": "dispatch click via MouseEvent no botao localizado por texto"
+        }
+      ]
+    },
+    "apply_now": {
+      "purpose": "Entrar no fluxo de candidatura a partir da pagina publica da vaga",
+      "stable_selectors": [
+        {
+          "type": "text",
+          "value": "Candidatar-se"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "button_text_normalized",
+          "value": "candidatar-se"
+        }
+      ]
+    },
+    "customize_application": {
+      "purpose": "Abrir personalizacao antes do envio final",
+      "stable_selectors": [
+        {
+          "type": "id",
+          "value": "dialog-save-personalization-step"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "text",
+          "value": "Personalizar candidatura"
+        },
+        {
+          "type": "button_text_normalized",
+          "value": "personalizar candidatura"
+        }
+      ]
+    },
+    "finish_application": {
+      "purpose": "Concluir envio da candidatura",
+      "stable_selectors": [
+        {
+          "type": "text",
+          "value": "Finalizar candidatura"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "button_text_normalized",
+          "value": "finalizar candidatura"
+        }
+      ]
+    },
+    "save_and_continue": {
+      "purpose": "Salvar respostas e ir para a proxima etapa",
+      "stable_selectors": [
+        {
+          "type": "text",
+          "value": "Salvar e continuar"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "button_text_normalized",
+          "value": "salvar e continuar"
+        }
+      ]
+    }
+  }
+}

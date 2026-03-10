@@ -1,0 +1,388 @@
+{
+  "updated_on": "2026-03-09",
+  "source_method": "Leitura direta do perfil publico no GitHub via Playwright MCP e complemento com o inventario anterior derivado do historico local do Chrome.",
+  "source_reliability_note": "Os dados abaixo combinam informacoes confirmadas diretamente no GitHub publico do usuario e evidencias anteriores do historico local. Onde houver inferencia, ela esta sinalizada separadamente.",
+  "profile": {
+    "username": "davidsilcard",
+    "display_name": "DAVID SILVA CARDOSO",
+    "profile_url": "https://github.com/davidsilcard",
+    "profile_readme_url": "https://github.com/davidsilcard/davidsilcard",
+    "repositories_url": "https://github.com/davidsilcard?tab=repositories",
+    "confirmed_titles_seen_in_local_history": [
+      "davidsilcard (DAVID SILVA CARDOSO)",
+      "Your Repositories"
+    ],
+    "profile_readme_confirmed_on_github": {
+      "headline": "Automacao de Processos | Analista de Desenvolvimento | Backend Python/TypeScript",
+      "summary": "Trabalho com desenvolvimento de software orientado a negocio, criando solucoes para reduzir esforco operacional, aumentar confiabilidade de dados e acelerar tomadas de decisao.",
+      "deliverables_confirmed": [
+        "APIs backend robustas com regras de negocio claras.",
+        "Automacao de processos e coleta de dados com foco em resiliencia.",
+        "Pipelines de dados para historico, auditoria e suporte a decisao.",
+        "Evolucao incremental com testes automatizados e manutencao continua."
+      ],
+      "main_stack_confirmed": [
+        "Python",
+        "TypeScript",
+        "JavaScript",
+        "FastAPI",
+        "SQLAlchemy",
+        "Alembic",
+        "Playwright",
+        "ETL",
+        "scraping",
+        "SQLite",
+        "PostgreSQL",
+        "testes automatizados",
+        "qualidade de codigo"
+      ],
+      "career_goal_confirmed": "Busco oportunidades para atuar com backend e engenharia de software, com foco em automacao de processos e produtos de dados.",
+      "profile_readme_last_commit": {
+        "date": "2026-03-02",
+        "message": "Revise README for clarity and updated project details"
+      }
+    }
+  },
+  "repositories_observed": [
+    {
+      "name": "azure-cloud-native-2026-portfolio",
+      "confirmed_by_local_history": true,
+      "evidence_urls": [
+        "https://github.com/davidsilcard/azure-cloud-native-2026-portfolio",
+        "https://github.com/davidsilcard/azure-cloud-native-2026-portfolio/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "chatbot_nano_banana",
+      "confirmed_by_local_history": true,
+      "evidence_urls": [
+        "https://github.com/davidsilcard/chatbot_nano_banana"
+      ]
+    },
+    {
+      "name": "comandos_ts",
+      "confirmed_by_local_history": true,
+      "evidence_urls": [
+        "https://github.com/davidsilcard/comandos_ts",
+        "https://github.com/davidsilcard/comandos_ts/blob/main/README.md"
+      ]
+    },
+    {
+      "name": "controle_de_opcoes",
+      "confirmed_by_local_history": true,
+      "evidence_urls": [
+        "https://github.com/davidsilcard/controle_de_opcoes"
+      ]
+    },
+    {
+      "name": "curso-workout_api-santander",
+      "confirmed_on_profile_readme": true,
+      "evidence_urls": [
+        "https://github.com/davidsilcard/curso-workout_api-santander",
+        "https://github.com/davidsilcard/davidsilcard"
+      ],
+      "confirmed_summary": "API com FastAPI, SQLAlchemy, Alembic e PostgreSQL, com CRUD, validacoes, filtros e documentacao automatica."
+    },
+    {
+      "name": "desafio_dio_fastify",
+      "confirmed_by_local_history": true,
+      "evidence_urls": [
+        "https://github.com/davidsilcard/desafio_dio_fastify"
+      ]
+    },
+    {
+      "name": "desafio-explorando-ia-generativa-pipeline-etl-python",
+      "confirmed_by_local_history": true,
+      "evidence_urls": [
+        "https://github.com/davidsilcard/desafio-explorando-ia-generativa-pipeline-etl-python",
+        "https://github.com/davidsilcard/desafio-explorando-ia-generativa-pipeline-etl-python/blob/main/src/fundamentos-etl/SantanderDevWeek2023_CSV.ipynb"
+      ],
+      "confirmed_paths_seen": [
+        "src/fundamentos-etl/SantanderDevWeek2023_CSV.ipynb",
+        "src/fundamentos-etl/Untitled.ipynb"
+      ]
+    },
+    {
+      "name": "dio_bootcamp_mario_kart",
+      "confirmed_by_local_history": true,
+      "evidence_urls": [
+        "https://github.com/davidsilcard/dio_bootcamp_mario_kart"
+      ]
+    },
+    {
+      "name": "dio_bootcamp_node",
+      "confirmed_by_local_history": true,
+      "evidence_urls": [
+        "https://github.com/davidsilcard/dio_bootcamp_node",
+        "https://github.com/davidsilcard/dio_bootcamp_node/tree/main",
+        "https://github.com/davidsilcard/dio_bootcamp_node/blob/main/prompt-agent.md"
+      ],
+      "confirmed_paths_seen": [
+        "prompt-agent.md",
+        "prompt-ask.md",
+        "prompt-plan.md",
+        "prompt-plan.txt",
+        "teste"
+      ]
+    },
+    {
+      "name": "dio_bootcamp_node_copilotos",
+      "confirmed_by_local_history": true,
+      "evidence_urls": [
+        "https://github.com/davidsilcard/dio_bootcamp_node_copilotos"
+      ]
+    },
+    {
+      "name": "dio_desafio_champions",
+      "confirmed_by_local_history": true,
+      "evidence_urls": [
+        "https://github.com/davidsilcard/dio_desafio_champions"
+      ]
+    },
+    {
+      "name": "teste-django-htmx",
+      "confirmed_by_local_history": true,
+      "evidence_urls": [
+        "https://github.com/davidsilcard/teste-django-htmx"
+      ]
+    },
+    {
+      "name": "super_melhor_preco",
+      "confirmed_on_profile_readme": true,
+      "evidence_urls": [
+        "https://github.com/davidsilcard/super_melhor_preco",
+        "https://github.com/davidsilcard/davidsilcard"
+      ],
+      "confirmed_summary": "Coletor de precos para supermercados (Cooper e Angeloni) com paginacao segura, controle de carga, persistencia historica em SQLite e consultas para auditoria."
+    },
+    {
+      "name": "trabalho2",
+      "confirmed_by_local_history": true,
+      "evidence_urls": [
+        "https://github.com/davidsilcard/trabalho2",
+        "https://github.com/davidsilcard/trabalho2/blob/main/ic-cartorio-follow-eintimacao-acompanhamento-status-e/main.py"
+      ],
+      "confirmed_paths_seen": [
+        "ic-cartorio-follow-eintimacao-acompanhamento-status-e/main.py",
+        "ic-cartorio-follow-acompanhamento-status",
+        "download-capalote-santander/main.py"
+      ]
+    }
+  ],
+  "confirmed_repository_count_in_local_history": 12,
+  "repositories_featured_in_profile_readme": [
+    "controle_de_opcoes",
+    "super_melhor_preco",
+    "curso-workout_api-santander",
+    "desafio-explorando-ia-generativa-pipeline-etl-python"
+  ],
+  "inferred_topics_from_repo_names_and_paths": [
+    "Node.js",
+    "TypeScript",
+    "Python",
+    "ETL",
+    "IA generativa",
+    "Azure cloud-native",
+    "Fastify",
+    "Django + HTMX",
+    "automacao",
+    "projetos de bootcamp/desafio"
+  ],
+  "confirmed_topics_from_profile_readme": [
+    "backend",
+    "engenharia de software",
+    "automacao de processos",
+    "produtos de dados",
+    "ETL",
+    "scraping",
+    "Playwright",
+    "FastAPI",
+    "SQLAlchemy",
+    "Alembic",
+    "SQLite",
+    "PostgreSQL",
+    "testes automatizados"
+  ],
+  "live_repositories_observed_on_2026_03_09": [
+    {
+      "name": "chatbot_nano_banana",
+      "url": "https://github.com/davidsilcard/chatbot_nano_banana",
+      "language": "Python",
+      "updated_at": "2026-03-04T17:31:37Z"
+    },
+    {
+      "name": "controle_de_opcoes",
+      "url": "https://github.com/davidsilcard/controle_de_opcoes",
+      "language": "Python",
+      "updated_at": "2026-03-03T13:15:06Z"
+    },
+    {
+      "name": "davidsilcard",
+      "url": "https://github.com/davidsilcard/davidsilcard",
+      "language": "",
+      "updated_at": "2026-03-02T15:36:20Z"
+    },
+    {
+      "name": "azure-cloud-native-2026-portfolio",
+      "url": "https://github.com/davidsilcard/azure-cloud-native-2026-portfolio",
+      "language": "",
+      "updated_at": "2026-03-02T14:46:09Z"
+    },
+    {
+      "name": "desafio-explorando-ia-generativa-pipeline-etl-python",
+      "url": "https://github.com/davidsilcard/desafio-explorando-ia-generativa-pipeline-etl-python",
+      "language": "Jupyter Notebook",
+      "updated_at": "2026-02-27T17:37:50Z"
+    },
+    {
+      "name": "super_melhor_preco",
+      "url": "https://github.com/davidsilcard/super_melhor_preco",
+      "language": "Python",
+      "updated_at": "2026-02-23T16:54:11Z"
+    },
+    {
+      "name": "dio_desafio_champions",
+      "url": "https://github.com/davidsilcard/dio_desafio_champions",
+      "language": "TypeScript",
+      "updated_at": "2026-02-23T12:04:01Z"
+    },
+    {
+      "name": "comandos_ts",
+      "url": "https://github.com/davidsilcard/comandos_ts",
+      "language": "",
+      "updated_at": "2026-02-20T14:41:03Z"
+    },
+    {
+      "name": "desafio_dio_fastify",
+      "url": "https://github.com/davidsilcard/desafio_dio_fastify",
+      "language": "TypeScript",
+      "updated_at": "2026-02-20T11:59:45Z"
+    },
+    {
+      "name": "dio_desafio_podcast",
+      "url": "https://github.com/davidsilcard/dio_desafio_podcast",
+      "language": "TypeScript",
+      "updated_at": "2026-02-18T18:52:10Z"
+    },
+    {
+      "name": "godot4_f1",
+      "url": "https://github.com/davidsilcard/godot4_f1",
+      "language": "",
+      "updated_at": "2026-02-13T19:02:47Z"
+    },
+    {
+      "name": "dio_bootcamp_carrinho",
+      "url": "https://github.com/davidsilcard/dio_bootcamp_carrinho",
+      "language": "JavaScript",
+      "updated_at": "2026-02-13T16:33:01Z"
+    },
+    {
+      "name": "dio_bootcamp_mario_kart",
+      "url": "https://github.com/davidsilcard/dio_bootcamp_mario_kart",
+      "language": "JavaScript",
+      "updated_at": "2026-02-11T17:03:33Z"
+    },
+    {
+      "name": "dio_bootcamp_node_copilotos",
+      "url": "https://github.com/davidsilcard/dio_bootcamp_node_copilotos",
+      "language": "",
+      "updated_at": "2026-02-10T16:05:59Z"
+    },
+    {
+      "name": "curso-workout_api-santander",
+      "url": "https://github.com/davidsilcard/curso-workout_api-santander",
+      "language": "Python",
+      "updated_at": "2025-08-05T19:13:01Z"
+    },
+    {
+      "name": "converter_letra_numero",
+      "url": "https://github.com/davidsilcard/converter_letra_numero",
+      "language": "Python",
+      "updated_at": "2025-05-24T21:15:26Z"
+    },
+    {
+      "name": "desafio_conta_bancaria",
+      "url": "https://github.com/davidsilcard/desafio_conta_bancaria",
+      "language": "Python",
+      "updated_at": "2025-05-19T21:45:56Z"
+    },
+    {
+      "name": "dio-lab-open-source",
+      "url": "https://github.com/davidsilcard/dio-lab-open-source",
+      "language": "Jupyter Notebook",
+      "updated_at": "2025-02-14T17:41:24Z"
+    },
+    {
+      "name": "super-trunfo-motos",
+      "url": "https://github.com/davidsilcard/super-trunfo-motos",
+      "language": "Python",
+      "updated_at": "2024-11-17T15:13:29Z"
+    },
+    {
+      "name": "lab-natty-or-not",
+      "url": "https://github.com/davidsilcard/lab-natty-or-not",
+      "language": "",
+      "updated_at": "2024-11-10T15:39:02Z"
+    },
+    {
+      "name": "teste-django-htmx",
+      "url": "https://github.com/davidsilcard/teste-django-htmx",
+      "language": "Python",
+      "updated_at": "2024-10-23T15:05:32Z"
+    },
+    {
+      "name": "teste",
+      "url": "https://github.com/davidsilcard/teste",
+      "language": "",
+      "updated_at": "2023-01-02T17:59:23Z"
+    },
+    {
+      "name": "dio-desafio-github-primeiro-repositorio",
+      "url": "https://github.com/davidsilcard/dio-desafio-github-primeiro-repositorio",
+      "language": "",
+      "updated_at": "2022-02-15T18:27:34Z"
+    },
+    {
+      "name": "formacao-javascript-mestre-jedi",
+      "url": "https://github.com/davidsilcard/formacao-javascript-mestre-jedi",
+      "language": "JavaScript",
+      "updated_at": "2020-01-10T18:33:22Z"
+    },
+    {
+      "name": "Testando_Asyncio",
+      "url": "https://github.com/davidsilcard/Testando_Asyncio",
+      "language": "Python",
+      "updated_at": "2019-09-01T14:54:37Z"
+    },
+    {
+      "name": "NodeBr",
+      "url": "https://github.com/davidsilcard/NodeBr",
+      "language": "JavaScript",
+      "updated_at": "2019-08-30T12:11:55Z"
+    },
+    {
+      "name": "antcaptcha",
+      "url": "https://github.com/davidsilcard/antcaptcha",
+      "language": "Python",
+      "updated_at": "2019-08-29T12:53:56Z"
+    },
+    {
+      "name": "Fiis",
+      "url": "https://github.com/davidsilcard/Fiis",
+      "language": "HTML",
+      "updated_at": "2019-08-19T19:11:34Z"
+    },
+    {
+      "name": "hcode",
+      "url": "https://github.com/davidsilcard/hcode",
+      "language": "PHP",
+      "updated_at": "2019-07-26T16:38:09Z"
+    },
+    {
+      "name": "AulaExpressJs",
+      "url": "https://github.com/davidsilcard/AulaExpressJs",
+      "language": "",
+      "updated_at": "2019-06-04T18:26:56Z"
+    }
+  ]
+}
