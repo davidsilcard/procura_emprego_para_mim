@@ -36,7 +36,7 @@ Assumir, por padrao, que o usuario quer uma ou mais destas acoes:
 17. Informar claramente quando algo foi confirmado em arquivo e quando for apenas inferencia.
 18. Quando o usuario adicionar novos certificados na pasta `cursos_certificados`, atualizar primeiro `cursos_certificados/inventario_certificados.json`.
 19. Quando houver novos repositorios relevantes ou mudancas importantes no GitHub do usuario, atualizar primeiro `github_inventario.json`.
-20. Em candidaturas da Gupy, seguir preferencialmente o fluxo definido em `application_rules.json`.
+20. Em candidaturas da Gupy e em outros portais, seguir preferencialmente o fluxo definido em `application_rules.json`.
 21. Considerar como padrao operacional da Gupy que voltar etapas pode exigir novo preenchimento; evitar navegar para tras durante a candidatura depois que a personalizacao ja estiver pronta.
 22. Em vagas da Gupy com personalizacao por habilidades, priorizar destacar ate 3 habilidades que tenham relacao direta com os requisitos centrais da vaga e que existam de forma real no historico do usuario.
 23. Antes de sugerir, abrir ou finalizar qualquer candidatura, consultar `candidaturas_log.json` para evitar duplicidade e reaproveitar historico de decisoes.
@@ -47,6 +47,12 @@ Assumir, por padrao, que o usuario quer uma ou mais destas acoes:
 28. Em perguntas sobre tempo de experiencia com Python, usar como referencia padrao a informacao confirmada em `profile.json` e `application_rules.json`, salvo quando a empresa pedir um recorte mais especifico.
 29. Em perguntas de pretensao salarial na Gupy sem contexto melhor da vaga, usar provisoriamente o valor padrao registrado em `job_preferences.json` e sinalizar depois quando isso merecer calibracao.
 30. Em automacoes da Gupy, consultar primeiro `gupy_selectors.json` para reaproveitar seletores de botoes e etapas recorrentes antes de reinspecionar o DOM da pagina.
+31. Em automacoes com BrowserMCP, preferir manter o navegador e a aba alvo em primeiro plano durante cliques; preenchimento de campos pode funcionar em segundo plano, mas cliques podem falhar por timeout ou nao refletir a navegacao.
+32. Em formularios que nao sejam da Gupy, consultar `application_rules.json` em `generic_forms.default_answers` para reaproveitar respostas padrao como fonte da vaga, disponibilidade para viagens, mudanca de cidade, pretensao salarial, prazo de inicio e agente publico.
+33. Em etapas de perfil comportamental da Recrut.AI, inspecionar sempre os textos auxiliares das perguntas antes de responder, porque a plataforma pode exigir formatos curtos ou limites de palavras.
+34. Antes de qualquer automacao em navegador, consultar `browser_automation_rules.json` e seguir a mesma estrategia operacional de sessao, login, navegacao e submit.
+35. Se o usuario disser que a pagina ja esta aberta, assumir controle dessa pagina antes de abrir nova janela, nova aba ou novo perfil.
+36. Se houver login manual, parar no limite da autenticacao e esperar confirmacao do usuario; depois disso, continuar na mesma sessao do navegador usada no login.
 
 ## Perfil base ja identificado
 
@@ -81,6 +87,7 @@ Assumir, por padrao, que o usuario quer uma ou mais destas acoes:
 - `cursos_certificados/inventario_certificados.json`
 - `github_inventario.json`
 - `candidaturas_log.json`
+- `browser_automation_rules.json`
 - `gupy_selectors.json`
 - pasta `cursos_certificados`
 
@@ -103,3 +110,5 @@ Usar este protocolo antes de sugerir vaga, abrir candidatura ou preencher formul
 9. Em tarefas ambiguas, preferir confirmar o criterio de selecao da vaga antes de avancar para candidatura.
 10. Em formularios com perguntas eliminatorias, validar primeiro as respostas mais sensiveis, como tempo de experiencia, escolaridade, disponibilidade, escala e pretensao salarial.
 11. Em fluxos recorrentes da Gupy, tentar primeiro os seletores registrados em `gupy_selectors.json` e so depois partir para uma nova inspecao ampla do DOM.
+12. Antes de abrir navegador, verificar se o usuario ja deixou a pagina alvo aberta; se sim, reutilizar essa pagina.
+13. Se houver necessidade de login manual, parar nessa etapa e retomar apenas apos confirmacao do usuario, sem trocar de navegador no meio.

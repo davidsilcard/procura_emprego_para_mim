@@ -1,0 +1,64 @@
+{
+  "updated_on": "2026-03-11",
+  "goal": "Executar candidaturas com comportamento consistente no navegador, reduzindo retrabalho, janelas duplicadas e perda de sessao.",
+  "tool_priority": [
+    "Se houver MCP Playwright chamavel nesta sessao, usar como primeira opcao.",
+    "Se nao houver MCP Playwright chamavel, usar Playwright local conectado via CDP ao Chrome.",
+    "Nao alternar de ferramenta no meio da mesma candidatura sem motivo tecnico claro."
+  ],
+  "session_policy": {
+    "single_browser_per_application": true,
+    "reuse_same_session_after_manual_login": true,
+    "page_already_open_rules": [
+      "Se o usuario disser que a pagina ja esta aberta, assumir controle dessa pagina antes de abrir nova aba ou nova janela.",
+      "Nao abrir um segundo navegador ou um segundo perfil se a pagina alvo ja estiver aberta e utilizavel.",
+      "Antes de clicar, trazer a aba alvo para frente."
+    ]
+  },
+  "login_policy": {
+    "manual_login_boundary": true,
+    "rules": [
+      "Se o portal exigir login e o usuario nao estiver autenticado, parar na tela de login e esperar confirmacao do usuario.",
+      "Depois do login manual, continuar obrigatoriamente na mesma sessao do navegador em que o usuario entrou.",
+      "Nao abrir nova janela apos o usuario concluir login, salvo se a sessao atual estiver inutilizavel e isso for informado antes."
+    ],
+    "identity_provider_rules": [
+      "Se login com Google ou outro provedor acusar navegador inseguro, nao insistir em perfis temporarios aleatorios.",
+      "Nessa situacao, priorizar a sessao que o usuario ja abriu manualmente e reconectar nela."
+    ]
+  },
+  "navigation_policy": {
+    "rules": [
+      "Inspecionar primeiro a pagina atual, seus campos e botoes, antes de navegar para outra URL.",
+      "Evitar voltar etapas em fluxos de candidatura, especialmente na Gupy.",
+      "Nao abrir varias abas do mesmo portal para a mesma candidatura."
+    ]
+  },
+  "interaction_policy": {
+    "rules": [
+      "Trazer a aba para primeiro plano antes de cliques importantes.",
+      "Preencher campos, reinspecionar validacoes visiveis e so depois tentar enviar.",
+      "Se uma pagina tiver regras ocultas como limite de palavras, inspecionar essas regras antes de submeter."
+    ]
+  },
+  "communication_policy": {
+    "rules": [
+      "Antes de abrir navegador ou mexer em sessao existente, informar em uma frase qual navegador ou sessao sera usada.",
+      "Se faltar dado sensivel ou houver ambiguidade real, parar e confirmar com o usuario antes de enviar.",
+      "Se a plataforma exigir acao manual do usuario, esperar sem continuar tentando alternativas em paralelo."
+    ]
+  },
+  "recovery_policy": {
+    "rules": [
+      "Se houver falha de clique ou submit, inspecionar o estado atual antes de repetir a acao.",
+      "Se houver erro de upload de curriculo, aplicar fallback deterministico e registrar no log.",
+      "Se a automacao perder a sessao, tentar reconectar primeiro ao navegador ja aberto antes de criar outro."
+    ]
+  },
+  "forbidden_behaviors": [
+    "Abrir nova janela quando o usuario ja informou que a pagina correta esta aberta.",
+    "Trocar de perfil de navegador no meio da candidatura sem avisar.",
+    "Continuar apos tela de login sem esperar o usuario confirmar que terminou.",
+    "Responder perguntas sensiveis ou eliminatorias sem base local suficiente."
+  ]
+}

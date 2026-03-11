@@ -1,10 +1,17 @@
 {
-  "updated_on": "2026-03-09",
+  "updated_on": "2026-03-11",
   "person": {
     "full_name": "David Silva Cardoso",
+    "country": "Brasil",
     "current_city": "Jaragua do Sul - SC",
+    "zip_code": "89254300",
+    "address_number": "2515",
+    "address_complement": "apto 501 bloco 4",
     "phone": "(11) 97698-6161",
-    "email": "davidsilcard@gmail.com"
+    "email": "davidsilcard@gmail.com",
+    "cpf": "28729740835",
+    "birth_date": "1980-05-17",
+    "gender": "masculino"
   },
   "career": {
     "base_objective": [

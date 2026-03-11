@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-03-09",
+  "updated_on": "2026-03-11",
   "global_rules": [
     "Consultar primeiro fontes canonicas estruturadas antes de responder sobre o perfil do usuario",
     "Nao inventar experiencia, certificacao, disponibilidade ou preferencia",
@@ -9,6 +9,7 @@
     "profile.json",
     "job_preferences.json",
     "candidaturas_log.json",
+    "browser_automation_rules.json",
     "gupy_selectors.json",
     "github_inventario.json",
     "cursos_certificados/inventario_certificados.json",
@@ -16,6 +17,7 @@
     "Curriculo-David-Silva-Cardoso-Completo-FINAL.docx",
     "info_complementar.txt"
   ],
+  "browser_automation_reference_file": "browser_automation_rules.json",
   "gupy": {
     "preferred_flow": [
       "ler requisitos da vaga",
@@ -47,6 +49,63 @@
     },
     "skill_selection_rule": "Priorizar ate 3 habilidades diretamente ligadas aos requisitos centrais da vaga e confirmadas no historico do usuario",
     "selector_map_file": "gupy_selectors.json"
+  },
+  "generic_forms": {
+    "preferred_flow": [
+      "ler requisitos da vaga",
+      "avaliar aderencia real",
+      "consultar candidaturas_log.json",
+      "preencher dados pessoais confirmados",
+      "preencher perguntas padrao com base local",
+      "validar perguntas sensiveis e eliminatorias",
+      "adaptar texto curto de apresentacao quando existir",
+      "finalizar candidatura",
+      "registrar resultado no log"
+    ],
+    "validate_first": [
+      "tempo de experiencia",
+      "escolaridade",
+      "pretensao salarial",
+      "disponibilidade para viagens",
+      "mudanca de cidade",
+      "inicio imediato",
+      "vinculo com empresa ou indicacao"
+    ],
+    "default_answers": {
+      "country": "Brasil",
+      "job_source": "LinkedIn",
+      "has_referral": "Nao",
+      "already_worked_at_target_company": "Nao",
+      "allow_travel": "Sim",
+      "allow_city_change": "Nao",
+      "salary_expectation_display": "R$ 3.500,00",
+      "salary_expectation_brl": 3500,
+      "python_experience_reference": "superior a 5 anos",
+      "english_level": "intermediario (leitura)",
+      "notice_period_days": "15 a 30 dias",
+      "start_policy": "depende de desligamento do emprego atual",
+      "drivers_license": "Sim, categorias A e B",
+      "public_agent_status": "Nao sou e nunca fui Agente Publico"
+    }
+  },
+  "recrut_ai": {
+    "preferred_flow": [
+      "ler requisitos da vaga",
+      "avaliar aderencia real",
+      "consultar candidaturas_log.json",
+      "preencher formulario principal com base local",
+      "confirmar e-mail se a plataforma exigir",
+      "inspecionar etapas adicionais antes de responder",
+      "concluir candidatura",
+      "registrar resultado no log"
+    ],
+    "email_confirmation_may_be_required": true,
+    "cv_conversion_fallback": "Se o portal falhar ao converter DOCX, gerar e usar um TXT derivado do curriculo de 1 pagina.",
+    "personality_assessment_rules": [
+      "Inspecionar o texto auxiliar de cada pergunta antes de responder.",
+      "Se houver limite explicito de palavras, respeitar o formato antes de enviar.",
+      "Responder de forma coerente com o perfil profissional do usuario, sem inventar traços extremos."
+    ]
   },
   "application_decision_policy": {
     "check_hard_constraints_first": true,

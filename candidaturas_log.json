@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-03-09",
+  "updated_on": "2026-03-11",
   "description": "Registro canonico de candidaturas e decisoes para evitar duplicidade e reaproveitar contexto em futuras buscas.",
   "entries": [
     {
@@ -43,6 +43,48 @@
       "decision": "candidatura realizada",
       "fit_summary": "Aderencia plausivel por estudos em Azure cloud-native, automacao, processos, documentacao e capacidade de suporte tecnico.",
       "notes": "Perguntas extras respondidas com disponibilidade para a escala informada e pretensao salarial de R$ 3.500,00. Fluxo concluido com sucesso."
+    },
+    {
+      "applied_on": "2026-03-10",
+      "platform": "Gupy",
+      "company": "Neogrid Carreiras",
+      "job_title": "Pessoa Desenvolvedora Back End Pleno (Python)",
+      "job_url": "https://neogridcarreiras.gupy.io/job/eyJqb2JJZCI6MTA2NzU2NjIsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+      "application_url": "https://neogridcarreiras.gupy.io/candidates/applications/691391769/steps/3823656098/curriculum",
+      "status": "candidatado",
+      "work_model": "remoto",
+      "location": "Brasil",
+      "decision": "candidatura realizada",
+      "fit_summary": "Boa aderencia por Python backend, automacao, APIs, dados e trabalho remoto, com lacuna real em experiencia profissional direta com Django.",
+      "notes": "Perguntas da empresa respondidas com Django profissional = Nao; legado/depuracao = Sim; CI/CD e testes = Atuei pouco tempo; pretensao = R$ 6.000,00 a R$ 7.000,00. Personalizacao enviada com Python, Automacao de Processos e Analise de Dados."
+    },
+    {
+      "applied_on": "2026-03-11",
+      "platform": "Gupy",
+      "company": "Minerva Foods Tecnologia",
+      "job_title": "Analista de Sistemas Júnior (Sustentação de Soluções)",
+      "job_url": "https://minervatech.gupy.io/jobs/10468765?jobBoardSource=share_link",
+      "application_url": "https://minervatech.gupy.io/candidates/applications/673319972/steps/3708247644/curriculum",
+      "status": "candidatado",
+      "work_model": "remoto",
+      "location": "Brasil",
+      "decision": "candidatura realizada",
+      "fit_summary": "Boa aderencia pratica por SQL, automacao, APIs, analise de dados e suporte a operacao, com lacuna formal em graduacao especifica de tecnologia.",
+      "notes": "Perguntas da empresa respondidas com agente publico = Nao sou e nunca fui; viagens = Sim; pretensao = R$ 3.500,00; tempo de experiencia na funcao = 14 anos. Personalizacao enviada com Python, Analise de Dados e Automacao de Processos."
+    },
+    {
+      "applied_on": "2026-03-11",
+      "platform": "Recrut.AI",
+      "company": "Petlove",
+      "job_title": "Dev Backend com foco em automação",
+      "job_url": "https://petlove.jobs.recrut.ai/job/905QI5?source=linkedin",
+      "application_url": "https://petlove.jobs.recrut.ai/welcome/fa9f7df0-1d7d-11f1-9787-a7b6c24e59c7",
+      "status": "candidatado",
+      "work_model": "remoto",
+      "location": "Brasil",
+      "decision": "candidatura concluida",
+      "fit_summary": "Boa aderencia pratica em Python, automacao, APIs, integracoes e LLMs, com lacuna formal em graduacao de tecnologia e senioridade plena/senior pedida na vaga.",
+      "notes": "Formulario preenchido com foto, endereco, LinkedIn e curriculo em TXT porque o portal falhou ao converter DOCX. Depois da confirmacao por e-mail, a etapa de perfil comportamental e cultural foi respondida e a tela final confirmou a inscricao concluida na vaga."
     }
   ]
 }
