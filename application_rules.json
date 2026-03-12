@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-03-11",
+  "updated_on": "2026-03-12",
   "global_rules": [
     "Consultar primeiro fontes canonicas estruturadas antes de responder sobre o perfil do usuario",
     "Nao inventar experiencia, certificacao, disponibilidade ou preferencia",
@@ -46,6 +46,19 @@
       "job_source": "LinkedIn",
       "has_referral": "Nao",
       "already_worked_at_target_company": "Nao"
+    },
+    "presentation_memory": {
+      "encoding_rule": "Em textos personalizados em pt-BR enviados por automacao, preservar UTF-8; se houver shell intermediario, preferir escapes Unicode ou base64 para evitar substituicao por '?'.",
+      "templates": {
+        "processos_dados_agilidade": {
+          "recommended_skills": [
+            "Mapeamento de Processos",
+            "Analise de Dados",
+            "Automacao de Processos"
+          ],
+          "text_pt_br": "Atuo na interface entre Negócios e Tecnologia, com experiência em levantamento de necessidades com usuários, mapeamento de processos, documentação funcional e desenvolvimento de soluções para aumentar produtividade e confiabilidade de dados. Hoje trabalho como Analista de Desenvolvimento na Zanotti, pesquisando e validando ferramentas de IA e desenvolvendo soluções internas, incluindo chatbot e sistema de controle de importação com regras de conferência, indicadores e suporte à operação. Ao longo da carreira, também conduzi automações em Python, VBA e Access, análise de dados e melhoria contínua de processos. Vejo aderência com a vaga por combinar visão de processos, modelagem de dados, relacionamento com áreas de negócio e atuação colaborativa com times de tecnologia. Posso contribuir no levantamento e organização de requisitos, acompanhamento de entregas, identificação de riscos e evolução de rotinas e sistemas em ambiente ágil."
+        }
+      }
     },
     "skill_selection_rule": "Priorizar ate 3 habilidades diretamente ligadas aos requisitos centrais da vaga e confirmadas no historico do usuario",
     "selector_map_file": "gupy_selectors.json"

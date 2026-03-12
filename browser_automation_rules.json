@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-03-11",
+  "updated_on": "2026-03-12",
   "goal": "Executar candidaturas com comportamento consistente no navegador, reduzindo retrabalho, janelas duplicadas e perda de sessao.",
   "tool_priority": [
     "Se houver MCP Playwright chamavel nesta sessao, usar como primeira opcao.",
@@ -31,14 +31,16 @@
     "rules": [
       "Inspecionar primeiro a pagina atual, seus campos e botoes, antes de navegar para outra URL.",
       "Evitar voltar etapas em fluxos de candidatura, especialmente na Gupy.",
-      "Nao abrir varias abas do mesmo portal para a mesma candidatura."
+      "Nao abrir varias abas do mesmo portal para a mesma candidatura.",
+      "Em paginas publicas da Gupy, verificar se ha bloco de candidatura rapida antes de forcar redirecionamento para outra rota."
     ]
   },
   "interaction_policy": {
     "rules": [
       "Trazer a aba para primeiro plano antes de cliques importantes.",
       "Preencher campos, reinspecionar validacoes visiveis e so depois tentar enviar.",
-      "Se uma pagina tiver regras ocultas como limite de palavras, inspecionar essas regras antes de submeter."
+      "Se uma pagina tiver regras ocultas como limite de palavras, inspecionar essas regras antes de submeter.",
+      "Se o clique em Candidatar-se na pagina publica levar direto para confirmacao final, registrar esse padrao como candidatura rapida concluida."
     ]
   },
   "communication_policy": {

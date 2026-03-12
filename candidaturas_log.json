@@ -85,6 +85,34 @@
       "decision": "candidatura concluida",
       "fit_summary": "Boa aderencia pratica em Python, automacao, APIs, integracoes e LLMs, com lacuna formal em graduacao de tecnologia e senioridade plena/senior pedida na vaga.",
       "notes": "Formulario preenchido com foto, endereco, LinkedIn e curriculo em TXT porque o portal falhou ao converter DOCX. Depois da confirmacao por e-mail, a etapa de perfil comportamental e cultural foi respondida e a tela final confirmou a inscricao concluida na vaga."
+    },
+    {
+      "applied_on": "2026-03-12",
+      "platform": "Gupy",
+      "company": "Brisanet",
+      "job_title": "Analista de Sistemas | Scrum Master",
+      "job_url": "https://brisanet.gupy.io/job/eyJqb2JJZCI6MTA5NjA5NDAsInNvdXJjZSI6Imd1cHlfcG9ydGFsIn0=?jobBoardSource=gupy_portal",
+      "application_url": "https://brisanet.gupy.io/candidates/applications/692302530/steps/3829486832/curriculum",
+      "status": "candidatado",
+      "work_model": "remoto",
+      "location": "Brasil",
+      "decision": "candidatura realizada",
+      "fit_summary": "Boa aderencia pratica por mapeamento de processos, levantamento com usuarios, documentacao funcional, analise de dados e automacao, com lacuna real em experiencia formal como Scrum Master.",
+      "notes": "Perguntas da empresa respondidas com LGPD = Sim; nome da mae = Solange Rocha Silva; CNH = Sim, categorias A e B; pretensao salarial = R$ 3.500,00; disponibilidade de horario = Sim. Apresentacao personalizada revisada e reenviada com texto corrigido em UTF-8 para evitar substituicao de acentos por '?'."
+    },
+    {
+      "applied_on": "2026-03-12",
+      "platform": "Gupy",
+      "company": "Datahub Big Data & Analytics",
+      "job_title": "Desenvolvedor Python Pleno",
+      "job_url": "https://datahub.gupy.io/jobs/10841463?jobBoardSource=gupy_public_page",
+      "application_url": "https://datahub.gupy.io/application-completed/10841463",
+      "status": "candidatado",
+      "work_model": "remoto",
+      "location": "Brasil",
+      "decision": "candidatura realizada",
+      "fit_summary": "Boa aderencia pratica por Python, automacao web, scraping, tratamento de dados e manutencao de fluxos sujeitos a mudancas de pagina, com lacuna real em evidencia explicita de Selenium e fingerprints na base local.",
+      "notes": "Fluxo concluido pela candidatura rapida da pagina publica da Gupy. O clique em Candidatar-se levou direto para a tela final de confirmacao, sem perguntas adicionais nem etapa de personalizacao."
     }
   ]
 }

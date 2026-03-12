@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-03-09",
+  "updated_on": "2026-03-12",
   "description": "Mapa local de seletores recorrentes da Gupy para acelerar automacao e reduzir reinspecoes do DOM.",
   "strategy": {
     "priority_order": [
@@ -12,8 +12,34 @@
     "notes": [
       "Preferir seletores estaveis e semanticos antes de texto visivel.",
       "Evitar depender de classes dinamicas, posicao na pagina ou estrutura visual fragil.",
-      "Quando o texto da interface vier quebrado, comparar tambem a versao normalizada sem espacos duplicados."
+      "Quando o texto da interface vier quebrado, comparar tambem a versao normalizada sem espacos duplicados.",
+      "Em paginas publicas com candidatura rapida, identificar primeiro se ja existe formulario visivel e se o clique em Candidatar-se conclui a inscricao imediatamente."
     ]
+  },
+  "page_patterns": {
+    "public_quick_apply": {
+      "purpose": "Detectar vagas da Gupy cuja pagina publica ja exibe formulario de candidatura rapida",
+      "signals": [
+        "texto visivel 'Candidatura rapida'",
+        "campos Nome completo, CPF, E-mail, Numero de celular",
+        "botao 'Candidatar-se' na mesma pagina publica da vaga"
+      ]
+    },
+    "company_questions_gate": {
+      "purpose": "Detectar a tela intermediaria de perguntas da empresa antes do envio",
+      "signals": [
+        "texto visivel 'Perguntas criadas pela empresa'",
+        "texto visivel 'Responder agora'"
+      ]
+    },
+    "application_completed": {
+      "purpose": "Confirmar que a candidatura foi concluida",
+      "signals": [
+        "URL contendo '/application-completed/' ou '/candidates/applications/' com tela final",
+        "texto visivel 'Candidatura finalizada!'",
+        "botoes 'Acompanhar candidatura' ou 'Buscar outras vagas'"
+      ]
+    }
   },
   "selectors": {
     "continue_application": {
@@ -47,6 +73,21 @@
         {
           "type": "button_text_normalized",
           "value": "candidatar-se"
+        }
+      ]
+    },
+    "respond_now": {
+      "purpose": "Abrir a etapa de perguntas criadas pela empresa",
+      "stable_selectors": [
+        {
+          "type": "text",
+          "value": "Responder agora"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "button_text_normalized",
+          "value": "responder agora"
         }
       ]
     },
@@ -96,6 +137,40 @@
         {
           "type": "button_text_normalized",
           "value": "salvar e continuar"
+        }
+      ]
+    },
+    "quick_apply_submit": {
+      "purpose": "Enviar candidatura rapida na pagina publica da vaga",
+      "stable_selectors": [
+        {
+          "type": "text",
+          "value": "Candidatar-se"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "contextual_text",
+          "value": "botao Candidatar-se dentro do bloco Candidatura rapida"
+        }
+      ]
+    },
+    "completed_state": {
+      "purpose": "Validar a tela final de candidatura concluida",
+      "stable_selectors": [
+        {
+          "type": "text",
+          "value": "Candidatura finalizada!"
+        }
+      ],
+      "fallbacks": [
+        {
+          "type": "text",
+          "value": "Acompanhar candidatura"
+        },
+        {
+          "type": "text",
+          "value": "Buscar outras vagas"
         }
       ]
     }
